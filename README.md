@@ -22,6 +22,9 @@
 
 ---
 
+## 📌 Problem Statement
+Improper waste segregation leads to environmental pollution and inefficient recycling processes.
+
 ## 📖 Overview
 
 **BinWise** is a state-of-the-art web application designed to revolutionize municipal waste management. By combining **Computer Vision AI** with a **gamified citizen reward system**, BinWise encourages responsible waste segregation at the source. It features dual interfaces: an engaging portal for residents to earn "Eco Points," and a powerful real-time command center for municipal administrators to manage smart bins and fleet operations.
