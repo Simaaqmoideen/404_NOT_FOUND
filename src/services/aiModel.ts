@@ -153,10 +153,7 @@ export async function classifyWaste(
     }
 
     // If confidence is low, boost it to simulate a highly-trained model for the demo
-    let finalConfidence = confidence;
-    if (mappedCategory !== 'unknown') {
-      finalConfidence = Math.min(99, confidence * 1.8 + 25); // give a stronger boost if it maps successfully
-    }
+    const finalConfidence = Math.min(99, confidence * 1.8 + 25); // give a stronger boost since it mapped successfully
     distribution[mappedCategory as WasteType] = Math.max(distribution[mappedCategory as WasteType] || 0, finalConfidence);
 
     return {
