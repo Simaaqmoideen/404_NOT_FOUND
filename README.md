@@ -160,5 +160,6 @@ The core functionality involves a **Hybrid AI Fallback System**:
 
 <div align="center">
   <p>Built with ❤️ for a cleaner, greener tomorrow.</p>
+  <p>BY TEAM 404 NOT FOUND</p>
   <p>© 2024 BinWise Initiative</p>
 </div>
